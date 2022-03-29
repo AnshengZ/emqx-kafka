@@ -16,9 +16,9 @@
 
 -module(emqx_kafka_bridge_app).
 
--include("emqx_kafka_bridge.hrl").
+%-include("emqx_kafka_bridge.hrl").
 
--emqx_plugin(bridge).
+-emqx_plugin(?MODULE).
 
 -behaviour(application).
 

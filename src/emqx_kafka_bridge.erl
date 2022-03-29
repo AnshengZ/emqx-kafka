@@ -14,10 +14,10 @@
 
 -module(emqx_kafka_bridge).
 
--include("emqx_kafka_bridge.hrl").
+%-include("emqx_kafka_bridge.hrl").
 
--include_lib("emqx/include/emqx.hrl").
--include_lib("emqx/include/logger.hrl").
+-include_lib("emqx.hrl").
+-include_lib("kernel/include/logger.hrl").
 
 -export([load/1, unload/0]).
 
